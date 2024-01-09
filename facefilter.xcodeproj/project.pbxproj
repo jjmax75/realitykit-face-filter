@@ -46,6 +46,7 @@
 		520120FA2B49F70A00328E01 /* facefilterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = facefilterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		520120FE2B49F70A00328E01 /* facefilterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = facefilterUITests.swift; sourceTree = "<group>"; };
 		520121002B49F70A00328E01 /* facefilterUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = facefilterUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		5201210D2B49FF9700328E01 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +97,7 @@
 		520120E02B49F70700328E01 /* facefilter */ = {
 			isa = PBXGroup;
 			children = (
+				5201210D2B49FF9700328E01 /* Info.plist */,
 				520120E12B49F70700328E01 /* AppDelegate.swift */,
 				520120E32B49F70700328E01 /* ContentView.swift */,
 				520120E52B49F70700328E01 /* Experience.rcproject */,
@@ -424,7 +426,9 @@
 				DEVELOPMENT_TEAM = 84X5CXP4S5;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_NSCameraUsageDescription = "";
+				INFOPLIST_FILE = facefilter/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Access Required for AR Experience";
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "Access required to save selfies";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UIRequiredDeviceCapabilities = arkit;
@@ -455,7 +459,9 @@
 				DEVELOPMENT_TEAM = 84X5CXP4S5;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_NSCameraUsageDescription = "";
+				INFOPLIST_FILE = facefilter/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Access Required for AR Experience";
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "Access required to save selfies";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UIRequiredDeviceCapabilities = arkit;
